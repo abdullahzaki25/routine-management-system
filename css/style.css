@@ -1,0 +1,85 @@
+header{}
+header a{}
+header h1{
+	margin-top: 40px;	
+}
+
+.navbar{}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+    font-size: 20px;
+}
+
+.slider{}
+.slider img{
+	height: 500px;
+}
+
+.about-section{}
+.about-section p{
+	padding: 40px !important; 
+	/*margin-bottom: 90px !important;*/
+	display: inline-block;
+}
+
+.contact-section{}
+.contact-head{}
+.contact-head h1{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.contact-info{
+	padding: 20px 0;
+}
+.contact-info p{}
+.icon {
+    font-size: 30px;
+    color: orange !important;
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+ }
+
+ table tr td, table tr th{
+    border: black 1px solid;
+    padding: 10px;
+	text-align: center;
+}
+			
+input[type=button]{
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+			
+select {
+	width: 20%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+}
+			
+.btn-lg {
+	padding: 1rem 4rem;
+	font-size: 1.5rem;
+}
+
+footer{
+   /*position: fixed;*/
+   margin-top: 150px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+footer p{
+	font-weight: 400;
+	padding: 20px;
+	margin-bottom: 0;
+	display: inline-block;
+}
